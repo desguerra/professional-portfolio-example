@@ -140,19 +140,28 @@ header nav ul li a:hover {
 .card img {
     display: block;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .card:hover img {
     opacity: 1.0;
+    transition: .2s ease-in-out;
 }
 
 .img-desc {
     position: absolute;
-    top: 60%;
+    bottom: 10%;
     left: 0;
     background-color: var(--secondary-color);
     padding: 10px 20px;
+}
+
+.img-desc h3 {
+    font-size: 20px;
+}
+
+.img-desc h4 {
+    font-size: 16px;
 }
 
 /* contact-me styles */
@@ -179,4 +188,32 @@ header nav ul li a:hover {
 
 .contact-me ul li a:hover {
     text-decoration: underline;
+}
+
+/* MEDIA QUERY FOR TABLETS AND LARGER */
+@media screen and (min-width: 575px) {
+    .project-cards {
+        flex-direction: column;
+        /* margin: 0;
+        width: auto; */
+        flex-wrap: nowrap;
+    }
+
+    .together {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND LARGER */
+@media screen and (min-width: 768px) {
+    .my-work {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* MEDIA QUERY FOR LARGE DESKTOP SCREENS AND LARGER */
+@media screen and (min-width: 980px) {
+    
 }
