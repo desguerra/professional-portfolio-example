@@ -104,7 +104,7 @@ header nav ul li a:hover {
 }
 
 .about-me p {
-    width: 80%;
+    width: 90%;
     font-size: 18px;
     line-height: 1.7;
     margin: 0 auto;
@@ -168,7 +168,6 @@ header nav ul li a:hover {
 .contact-me {
     background-color: var(--dark-color);
     color: var(--secondary-color);
-    padding-bottom: 50px;
 }
 .contact-me ul {
     display: flex;
@@ -207,13 +206,94 @@ header nav ul li a:hover {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND LARGER */
 @media screen and (min-width: 768px) {
-    .my-work {
+    header {
+        flex-wrap: nowrap;
+        padding: 20px 0;
+        align-items: center;
+    }
+    header h1 {
+        text-align: left;
+        padding: 10px 40px;
+    }
+    header nav ul {
+        width: 500px;
+    }
+    
+    .section {
         display: flex;
+        width: 85%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    .section .header {
+        width: 25%;
+        margin: 0 auto;
+    }
+
+    .section h2 {
+        font-size: 26px;
+        text-align: right;
+        border: none;
+    }
+
+    .section .content {
+        width: 75%;
+        margin: 0 auto;
+        border-left: 4px solid var(--primary-color);
+    }
+
+    .about-me {
+        flex-wrap: nowrap;
+    }
+
+    .about-me p {
+        text-align: left;
+    }
+    
+    .my-work {
         flex-wrap: wrap;
     }
+
+    .my-work .content {
+        border-color:var(--tertiary-color);
+    }
+
+    .contact-me {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .contact-me .header {
+        border-right: 4px solid var(--primary-color);
+    }
+
+    .contact-me .section {
+        align-items: center;
+    }
+
+    .contact-me .content {
+        border: none;
+    }
+
+    .contact-me ul {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .contact-me ul li a {
+        padding: 10px 15px;
+    }
+
 }
 
 /* MEDIA QUERY FOR LARGE DESKTOP SCREENS AND LARGER */
 @media screen and (min-width: 980px) {
-    
+    header {
+        padding: 10px 0;
+    }
+    .section h2 {
+        font-size: 36px;
+    }
 }
