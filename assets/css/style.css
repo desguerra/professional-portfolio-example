@@ -78,8 +78,13 @@ header nav ul li a:hover {
     color: var(--section-color);
     padding: 10px 70px;
     position: absolute;
-    top: 80%;
+    top: 55%;
     right: 0;
+}
+
+.hero img {
+    height: 50px;
+    width: 50px;
 }
 
 /* general section styles */
