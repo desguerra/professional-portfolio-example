@@ -36,6 +36,7 @@ header h1 {
     font-size: 36px;
     padding-bottom: 10px;
     color: var(--tertiary-color);
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
 }
 
 header nav ul {
@@ -59,42 +60,26 @@ header nav ul li a:hover {
     color: var(--secondary-color);
 }
 
-/* footer styles */
-footer {
-    background-color: var(--dark-color);
-    color: var(--secondary-color);
-    text-align: center;
-    width: 100%;
-}
-
 /* hero styles */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
+    height: 250px;
+    position: relative;
 }
 
 .hero h3 {
-    height: 250px;
-    width: 100%;
-    text-align: right;
+    text-align: center;
     color: #fff;
     font-size: 18px;
     line-height: 1.2;
-}
-
-/* about me styles */
-.about-me {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.about-me p {
-    width: 80%;
-    font-size: 18px;
-    line-height: 1.7;
-    margin: 0 auto;
-    padding-bottom: 10px;
+    background-color: var(--tertiary-color);
+    color: var(--section-color);
+    padding: 10px 70px;
+    position: absolute;
+    top: 80%;
+    right: 0;
 }
 
 /* general section styles */
@@ -112,12 +97,26 @@ footer {
     border-bottom: 4px solid var(--primary-color);
 }
 
-/* styles for different bg color */
-.section-alt-bg {
+/* about me styles */
+.about-me {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about-me p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* my-work styles */
+.my-work {
     background-color: var(--section-color);
 }
 
-.section-alt-bg h2 {
+.my-work h2 {
     border-bottom: 4px solid var(--tertiary-color);
 }
 
@@ -135,17 +134,49 @@ footer {
     background-color: var(--secondary-color);
     margin: 7px;
     border: 5px solid var(--secondary-color);
+    position: relative;
 }
 
-.main-card img {
+.card img {
+    display: block;
     width: 100%;
+    opacity: 0.6;
+}
+
+.card:hover img {
+    opacity: 1.0;
+}
+
+.img-desc {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
 }
 
 /* contact-me styles */
+.contact-me {
+    background-color: var(--dark-color);
+    color: var(--secondary-color);
+    padding-bottom: 50px;
+}
 .contact-me ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-me ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+.contact-me ul li a:hover {
+    text-decoration: underline;
 }
