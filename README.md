@@ -14,12 +14,12 @@ This project is a challenge made from scratch. This challenge involved creating 
 
 In addition, I have also:
 
-* deployed the live [URL](https://desguerra.github.io/) [TODO: FIX LINK]
+* deployed the live [URL](https://desguerra.github.io/professional-portfolio-example/)
 * modified project to function similar to the mock-up given
 * added a placeholder link for a **resume** to be attached later
 * experimented with the color scheme, Google fonts, and different images to make it more of my own
 
-Here is the link to [the completed challenge!](https://desguerra.github.io/) [TODO: FIX LINK]
+Here is the link to [the completed challenge!](https://desguerra.github.io/professional-portfolio-example/)
 
 
 ## Table of Contents
@@ -38,11 +38,11 @@ Here is the link to [the completed challenge!](https://desguerra.github.io/) [TO
 
 ## Credits
 
-* Used color scheme can be found [here!](https://www.happyhues.co/)
+* Color scheme I used can be found [here!](https://www.happyhues.co/)
 
 
 ## Badges
 
-![html-badge](https://img.shields.io/badge/HTML-62.9%25-blueviolet)
-![css-badge](https://img.shields.io/badge/CSS-37.1%25-ff69b4)
+![html-badge](https://img.shields.io/badge/HTML-54.1%25-blueviolet)
+![css-badge](https://img.shields.io/badge/CSS-45.9%25-ff69b4)
 
