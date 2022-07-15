@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a challenge made from scratch. This challenge involved creating a **sample portfolio website** to showcase our work and skill so far. This project:
+This project is a challenge made from scratch. This challenge involved creating a **sample portfolio website** to showcase our work and skills so far. This project:
 
 * showcases samples of work
 * presents the developer's name, an avatar, links to sections about them, their work, and how to contact them
